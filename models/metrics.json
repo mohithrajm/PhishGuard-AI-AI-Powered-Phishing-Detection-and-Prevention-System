@@ -1,0 +1,270 @@
+{
+  "urls": {
+    "best_model": "Random Forest Classifier",
+    "comparison": {
+      "Naive Majority Baseline": {
+        "validation": {
+          "model_name": "Naive Majority Baseline",
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "f1_ci_95": [
+            0.0,
+            0.0
+          ],
+          "roc_auc": 0.5,
+          "pr_auc": 0.5,
+          "confusion_matrix": [
+            [
+              300,
+              0
+            ],
+            [
+              300,
+              0
+            ]
+          ]
+        },
+        "test": {
+          "model_name": "Naive Majority Baseline",
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "f1_ci_95": [
+            0.0,
+            0.0
+          ],
+          "roc_auc": 0.5,
+          "pr_auc": 0.5,
+          "confusion_matrix": [
+            [
+              300,
+              0
+            ],
+            [
+              300,
+              0
+            ]
+          ]
+        }
+      },
+      "Logistic Regression Baseline": {
+        "validation": {
+          "model_name": "Logistic Regression Baseline",
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "f1_ci_95": [
+            1.0,
+            1.0
+          ],
+          "roc_auc": 1.0,
+          "pr_auc": 1.0,
+          "confusion_matrix": [
+            [
+              300,
+              0
+            ],
+            [
+              0,
+              300
+            ]
+          ]
+        },
+        "test": {
+          "model_name": "Logistic Regression Baseline",
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "f1_ci_95": [
+            1.0,
+            1.0
+          ],
+          "roc_auc": 1.0,
+          "pr_auc": 1.0,
+          "confusion_matrix": [
+            [
+              300,
+              0
+            ],
+            [
+              0,
+              300
+            ]
+          ]
+        }
+      },
+      "Random Forest Classifier": {
+        "validation": {
+          "model_name": "Random Forest Classifier",
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "f1_ci_95": [
+            1.0,
+            1.0
+          ],
+          "roc_auc": 1.0,
+          "pr_auc": 1.0,
+          "confusion_matrix": [
+            [
+              300,
+              0
+            ],
+            [
+              0,
+              300
+            ]
+          ]
+        },
+        "test": {
+          "model_name": "Random Forest Classifier",
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "f1_ci_95": [
+            1.0,
+            1.0
+          ],
+          "roc_auc": 1.0,
+          "pr_auc": 1.0,
+          "confusion_matrix": [
+            [
+              300,
+              0
+            ],
+            [
+              0,
+              300
+            ]
+          ]
+        }
+      },
+      "Gradient Boosting Classifier": {
+        "validation": {
+          "model_name": "Gradient Boosting Classifier",
+          "accuracy": 0.9983,
+          "precision": 0.9967,
+          "recall": 1.0,
+          "f1_score": 0.9983,
+          "f1_ci_95": [
+            0.9947,
+            1.0
+          ],
+          "roc_auc": 0.9983,
+          "pr_auc": 0.9967,
+          "confusion_matrix": [
+            [
+              299,
+              1
+            ],
+            [
+              0,
+              300
+            ]
+          ]
+        },
+        "test": {
+          "model_name": "Gradient Boosting Classifier",
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "f1_ci_95": [
+            1.0,
+            1.0
+          ],
+          "roc_auc": 1.0,
+          "pr_auc": 1.0,
+          "confusion_matrix": [
+            [
+              300,
+              0
+            ],
+            [
+              0,
+              300
+            ]
+          ]
+        }
+      }
+    },
+    "feature_importances": {
+      "suspicious_keyword_count": 0.3166,
+      "has_suspicious_keyword": 0.1382,
+      "num_hyphens": 0.1253,
+      "is_suspicious_tld": 0.1049,
+      "is_https": 0.0565,
+      "domain_length": 0.0431,
+      "url_length": 0.0384,
+      "domain_entropy": 0.0366,
+      "url_entropy": 0.0215,
+      "count_subdomains": 0.0171,
+      "num_dots": 0.0156,
+      "num_equals": 0.0145,
+      "digit_ratio": 0.0126,
+      "num_ampersand": 0.0117,
+      "letter_ratio": 0.0114,
+      "num_slashes": 0.0106,
+      "query_length": 0.0074,
+      "path_length": 0.0061,
+      "is_brand_spoofed": 0.0043,
+      "num_questionmarks": 0.0035,
+      "is_ip": 0.0032,
+      "num_underscores": 0.0007,
+      "has_punycode": 0.0002,
+      "has_double_slash": 0.0,
+      "has_port": 0.0,
+      "num_at": 0.0,
+      "num_percent": 0.0,
+      "num_exclamation": 0.0
+    },
+    "slice_analysis": {
+      "IP Address Hosts": {
+        "sample_count": 43,
+        "accuracy": 1.0
+      },
+      "Brand Impersonation / Typosquats": {
+        "sample_count": 137,
+        "accuracy": 1.0
+      },
+      "Suspicious TLDs": {
+        "sample_count": 212,
+        "accuracy": 1.0
+      },
+      "High Entropy Domains (>4.0)": {
+        "sample_count": 45,
+        "accuracy": 1.0
+      }
+    }
+  },
+  "emails": {
+    "model_name": "Random Forest Email NLP",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "f1_ci_95": [
+      1.0,
+      1.0
+    ],
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "confusion_matrix": [
+      [
+        120,
+        0
+      ],
+      [
+        0,
+        120
+      ]
+    ]
+  }
+}

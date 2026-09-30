@@ -1,0 +1,204 @@
+[
+  {
+    "id": "THREAT-1789665205044",
+    "timestamp": "2026-09-17T17:13:25.044038Z",
+    "target": "http://paypa1-verify-account.xyz/login?urgent=true",
+    "threat_type": "URL",
+    "risk_score": 95.0,
+    "verdict": "MALICIOUS",
+    "action_taken": "BLOCK_AND_SINKHOLE",
+    "indicators": [
+      "Top-Level Domain (.xyz) has a high historical abuse rate.",
+      "Contains multiple sensitive keywords: login, verify, account.",
+      "Insecure HTTP protocol used on a credential/sensitive page."
+    ]
+  },
+  {
+    "id": "THREAT-1789665205103",
+    "timestamp": "2026-09-17T17:13:25.103136Z",
+    "target": "Subject: CRITICAL ALERT: Your Microsoft 365 accou... Sender: Microsoft IT Helpdesk <admin-support@outlook-service-alert.top>",
+    "threat_type": "EMAIL",
+    "risk_score": 100.0,
+    "verdict": "PHISHING_MALICIOUS",
+    "action_taken": "QUARANTINE",
+    "indicators": [
+      "High psychological urgency/coercion markers detected (3 instances).",
+      "Display name claims to be \"Microsoft\" but email domain is \"outlook-service-alert.top\".",
+      "Embedded link 'hxxp[://]login-microsoft365-portal[.]top/auth' rated as MALICIOUS (100.0/100)."
+    ]
+  },
+  {
+    "id": "THREAT-1789665228574",
+    "timestamp": "2026-09-17T17:13:48.574477Z",
+    "target": "Subject: CRITICAL ALERT: Your Microsoft 365 accou... Sender: Microsoft IT Helpdesk <admin-support@outlook-service-alert.top>",
+    "threat_type": "EMAIL",
+    "risk_score": 100.0,
+    "verdict": "PHISHING_MALICIOUS",
+    "action_taken": "QUARANTINE",
+    "indicators": [
+      "High psychological urgency/coercion markers detected (3 instances).",
+      "Display name claims to be \"Microsoft\" but email domain is \"outlook-service-alert.top\".",
+      "Embedded link 'hxxp[://]login-microsoft365-portal[.]top/auth' rated as MALICIOUS (100.0/100)."
+    ]
+  },
+  {
+    "id": "THREAT-1789665249744",
+    "timestamp": "2026-09-17T17:14:09.744880Z",
+    "target": "http://paypa1-verify-account.xyz/login?urgent=true",
+    "threat_type": "URL",
+    "risk_score": 100.0,
+    "verdict": "MALICIOUS",
+    "action_taken": "BLOCK_AND_SINKHOLE",
+    "indicators": [
+      "Potential typosquatting/brand impersonation detected targeting 'paypal'.",
+      "Top-Level Domain (.xyz) has a high historical abuse rate.",
+      "Contains multiple sensitive keywords: login, verify, account.",
+      "Insecure HTTP protocol used on a credential/sensitive page."
+    ]
+  },
+  {
+    "id": "THREAT-1789665249813",
+    "timestamp": "2026-09-17T17:14:09.813287Z",
+    "target": "Subject: CRITICAL ALERT: Your Microsoft 365 accou... Sender: Microsoft IT Helpdesk <admin-support@outlook-service-alert.top>",
+    "threat_type": "EMAIL",
+    "risk_score": 100.0,
+    "verdict": "PHISHING_MALICIOUS",
+    "action_taken": "QUARANTINE",
+    "indicators": [
+      "High psychological urgency/coercion markers detected (3 instances).",
+      "Display name claims to be \"Microsoft\" but email domain is \"outlook-service-alert.top\".",
+      "Embedded link 'hxxp[://]login-microsoft365-portal[.]top/auth' rated as MALICIOUS (100.0/100)."
+    ]
+  },
+  {
+    "id": "THREAT-1789665290316",
+    "timestamp": "2026-09-17T17:14:50.316003+00:00Z",
+    "target": "http://paypa1-verify-account.xyz/login?urgent=true",
+    "threat_type": "URL",
+    "risk_score": 100.0,
+    "verdict": "MALICIOUS",
+    "action_taken": "BLOCK_AND_SINKHOLE",
+    "indicators": [
+      "Potential typosquatting/brand impersonation detected targeting 'paypal'.",
+      "Top-Level Domain (.xyz) has a high historical abuse rate.",
+      "Contains multiple sensitive keywords: login, verify, account.",
+      "Insecure HTTP protocol used on a credential/sensitive page."
+    ]
+  },
+  {
+    "id": "THREAT-1789665290377",
+    "timestamp": "2026-09-17T17:14:50.377422+00:00Z",
+    "target": "Subject: CRITICAL ALERT: Your Microsoft 365 accou... Sender: Microsoft IT Helpdesk <admin-support@outlook-service-alert.top>",
+    "threat_type": "EMAIL",
+    "risk_score": 100.0,
+    "verdict": "PHISHING_MALICIOUS",
+    "action_taken": "QUARANTINE",
+    "indicators": [
+      "High psychological urgency/coercion markers detected (3 instances).",
+      "Display name claims to be \"Microsoft\" but email domain is \"outlook-service-alert.top\".",
+      "Embedded link 'hxxp[://]login-microsoft365-portal[.]top/auth' rated as MALICIOUS (100.0/100)."
+    ]
+  },
+  {
+    "id": "THREAT-1789665354288",
+    "timestamp": "2026-09-17T17:15:54.288624+00:00Z",
+    "target": "http://paypa1-security-verification.xyz/login?session_id=89412",
+    "threat_type": "URL",
+    "risk_score": 100.0,
+    "verdict": "MALICIOUS",
+    "action_taken": "BLOCK_AND_SINKHOLE",
+    "indicators": [
+      "Potential typosquatting/brand impersonation detected targeting 'paypal'.",
+      "Top-Level Domain (.xyz) has a high historical abuse rate.",
+      "Contains multiple sensitive keywords: login, security.",
+      "Insecure HTTP protocol used on a credential/sensitive page."
+    ]
+  },
+  {
+    "id": "THREAT-1789665373451",
+    "timestamp": "2026-09-17T17:16:13.451861+00:00Z",
+    "target": "Subject: URGENT: Your account has been suspended ... Sender: PayPal Security <service-notice@account-verify-sec.xyz>",
+    "threat_type": "EMAIL",
+    "risk_score": 100.0,
+    "verdict": "PHISHING_MALICIOUS",
+    "action_taken": "QUARANTINE",
+    "indicators": [
+      "High psychological urgency/coercion markers detected (5 instances).",
+      "Display name claims to be \"Paypal\" but email domain is \"account-verify-sec.xyz\".",
+      "Embedded link 'hxxp[://]paypal-verify-account[.]xyz/login' rated as MALICIOUS (100.0/100)."
+    ]
+  },
+  {
+    "id": "THREAT-1789665418735",
+    "timestamp": "2026-09-17T17:16:58.735146+00:00Z",
+    "target": "http://paypa1-security-verification.xyz/login?session_id=89412",
+    "threat_type": "URL",
+    "risk_score": 100.0,
+    "verdict": "MALICIOUS",
+    "action_taken": "BLOCK_AND_SINKHOLE",
+    "indicators": [
+      "Potential typosquatting/brand impersonation detected targeting 'paypal'.",
+      "Top-Level Domain (.xyz) has a high historical abuse rate.",
+      "Contains multiple sensitive keywords: login, security.",
+      "Insecure HTTP protocol used on a credential/sensitive page."
+    ]
+  },
+  {
+    "id": "THREAT-1789665687768",
+    "timestamp": "2026-09-17T17:21:27.768084+00:00Z",
+    "target": "Subject: CRITICAL ALERT: Immediate password reset... Sender: Microsoft IT Helpdesk <admin-support@outlook-service-alert.top>",
+    "threat_type": "EMAIL",
+    "risk_score": 100.0,
+    "verdict": "PHISHING_MALICIOUS",
+    "action_taken": "QUARANTINE",
+    "indicators": [
+      "High psychological urgency/coercion markers detected (3 instances).",
+      "Contains high-pressure call-to-action urging credential/payment submission.",
+      "Display name claims to be \"Microsoft\" but email domain is \"outlook-service-alert.top\".",
+      "Embedded link 'hxxp[://]login-microsoft365-portal[.]top/auth' rated as MALICIOUS (100.0/100)."
+    ]
+  },
+  {
+    "id": "THREAT-1789665711726",
+    "timestamp": "2026-09-17T17:21:51.726579+00:00Z",
+    "target": "http://194.26.29.112:8080/chase/online-banking/verify.php",
+    "threat_type": "URL",
+    "risk_score": 100.0,
+    "verdict": "MALICIOUS",
+    "action_taken": "BLOCK_AND_SINKHOLE",
+    "indicators": [
+      "Host is a direct raw IP address rather than a legitimate domain.",
+      "Contains multiple sensitive keywords: verify, banking.",
+      "Insecure HTTP protocol used on a credential/sensitive page."
+    ]
+  },
+  {
+    "id": "THREAT-1789665804960",
+    "timestamp": "2026-09-17T17:23:24.960564+00:00Z",
+    "target": "http://netflix-subscription-renew.fit/account",
+    "threat_type": "URL",
+    "risk_score": 100.0,
+    "verdict": "MALICIOUS",
+    "action_taken": "BLOCK_AND_SINKHOLE",
+    "indicators": [
+      "Potential typosquatting/brand impersonation detected targeting 'netflix'.",
+      "Top-Level Domain (.fit) has a high historical abuse rate.",
+      "Insecure HTTP protocol used on a credential/sensitive page."
+    ]
+  },
+  {
+    "id": "THREAT-1789666148653",
+    "timestamp": "2026-09-17T17:29:08.653046+00:00Z",
+    "target": "http://paypa1-security-verification.xyz/login?session_id=89412",
+    "threat_type": "URL",
+    "risk_score": 100.0,
+    "verdict": "MALICIOUS",
+    "action_taken": "BLOCK_AND_SINKHOLE",
+    "indicators": [
+      "Potential typosquatting/brand impersonation detected targeting 'paypal'.",
+      "Top-Level Domain (.xyz) has a high historical abuse rate.",
+      "Contains multiple sensitive keywords: login, security.",
+      "Insecure HTTP protocol used on a credential/sensitive page."
+    ]
+  }
+]
